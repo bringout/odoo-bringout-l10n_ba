@@ -14,43 +14,43 @@
         <field name="property_stock_account_output_categ_id" ref="stock_out"/>
 -->
 
-        <field name="property_stock_valuation_account_id" ref="bs_fbih_130"/>
+        <field name="property_stock_valuation_account_id" ref="ba_fbih_130"/>
 
         <!-- Troškovi nabavke se kod ulazne fakture ne obračunavaju kao u anglosaxon, obavezno ide na 132 magacin -->
-        <field name="property_account_expense_categ_id" ref="bs_fbih_132"/>
+        <field name="property_account_expense_categ_id" ref="ba_fbih_132"/>
 
         <!-- Sales of merchandise to domestic customers -->
-        <field name="property_account_income_categ_id" ref="bs_fbih_601"/>
+        <field name="property_account_income_categ_id" ref="ba_fbih_601"/>
 
         <!-- Trade receivables - domestic third party -->
-        <field name="property_account_receivable_id" ref="bs_fbih_211"/>
+        <field name="property_account_receivable_id" ref="ba_fbih_211"/>
 
-        <field name="default_pos_receivable_account_id" ref="bs_fbih_205"/>
+        <field name="default_pos_receivable_account_id" ref="ba_fbih_205"/>
 
-        <field name="account_journal_early_pay_discount_loss_account_id" ref="bs_fbih_579"/>
-        <field name="account_journal_early_pay_discount_gain_account_id" ref="bs_fbih_662"/>
+        <field name="account_journal_early_pay_discount_loss_account_id" ref="ba_fbih_579"/>
+        <field name="account_journal_early_pay_discount_gain_account_id" ref="ba_fbih_662"/>
         
         
         <!-- Trade payables - domestic -->
-        <field name="property_account_payable_id" ref="bs_fbih_432"/>
+        <field name="property_account_payable_id" ref="ba_fbih_432"/>
 
         <!-- VAT in incoming invoices - general tax rate (except advances paid) -->
-        <field name="property_tax_receivable_account_id" ref="bs_fbih_270"/>
+        <field name="property_tax_receivable_account_id" ref="ba_fbih_270"/>
         
         <!-- Liabilities for VAT in outgoing invoices - general tax rate (except advances received)-->
-        <field name="property_tax_payable_account_id" ref="bs_fbih_470"/>
+        <field name="property_tax_payable_account_id" ref="ba_fbih_470"/>
 
 
         <!-- FX losses -->
-        <field name="expense_currency_exchange_account_id" ref="bs_fbih_563"/>
+        <field name="expense_currency_exchange_account_id" ref="ba_fbih_563"/>
 
         <!-- FX Gains -->
-        <field name="income_currency_exchange_account_id" ref="bs_fbih_663"/>
+        <field name="income_currency_exchange_account_id" ref="ba_fbih_663"/>
   
         <!-- Cash difference loss -->
-        <field name="default_cash_difference_expense_account_id" ref="bs_fbih_579" />
+        <field name="default_cash_difference_expense_account_id" ref="ba_fbih_579" />
         <!-- Cash difference gain -->
-        <field name="default_cash_difference_income_account_id" ref="bs_fbih_685" />
+        <field name="default_cash_difference_income_account_id" ref="ba_fbih_685" />
 
 
 

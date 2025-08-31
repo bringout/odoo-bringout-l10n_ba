@@ -81,7 +81,7 @@
     </record>
     -->
 
-    <record id="bs_sale_vat_17" model="account.tax.template">
+    <record id="ba_sale_vat_17" model="account.tax.template">
         <field name="sequence">10</field>
         <field name="description">17%</field>
         <field name="name">PDV 17%</field>
@@ -104,7 +104,7 @@
                 'factor_percent': 100,
                 'repartition_type': 'tax',
                 'tag_ids': [ref('tax_tag_E')],
-                'account_id': ref('bs_fbih_470'),
+                'account_id': ref('ba_fbih_470'),
                 'plus_report_expression_ids': [ref('tax_report_line_103_tag')],
             }),
         ]"/>
@@ -119,14 +119,14 @@
                 'factor_percent': 100,
                 'repartition_type': 'tax',
                 'tag_ids': [ref('tax_tag_E')],
-                'account_id': ref('bs_fbih_470'),
+                'account_id': ref('ba_fbih_470'),
                 'minus_report_expression_ids': [ref('tax_report_line_103_tag')],
             }),
         ]"/>
     </record>
 
     
-     <record id="bs_sale_vat_17_kp" model="account.tax.template">
+     <record id="ba_sale_vat_17_kp" model="account.tax.template">
         <field name="sequence">11</field>
         <field name="name">PDV 17% KP</field>
         <field name="description">17% KP</field>
@@ -149,7 +149,7 @@
                 'factor_percent': 100,
                 'repartition_type': 'tax',
                 'tag_ids': [ref('tax_tag_E')],
-                'account_id': ref('bs_fbih_473'),
+                'account_id': ref('ba_fbih_473'),
                 'plus_report_expression_ids': [ref('tax_report_line_103_tag')],
             }),
         ]"/>
@@ -164,13 +164,13 @@
                 'factor_percent': 100,
                 'repartition_type': 'tax',
                 'tag_ids': [ref('tax_tag_E')],
-                'account_id': ref('bs_fbih_473'),
+                'account_id': ref('ba_fbih_473'),
                 'minus_report_expression_ids': [ref('tax_report_line_103_tag')],
             }),
         ]"/>
     </record>
 
-    <record id="bs_sale_vat_0" model="account.tax.template">
+    <record id="ba_sale_vat_0" model="account.tax.template">
         <field name="sequence">30</field>
         <field name="description">0%</field>
         <field name="name">PDV 0%</field>
@@ -192,7 +192,7 @@
                 'factor_percent': 100,
                 'repartition_type': 'tax',
                 'tag_ids': [ref('tax_tag_K')],
-                'account_id': ref('bs_fbih_471'),
+                'account_id': ref('ba_fbih_471'),
             }),
         ]"/>
         <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
@@ -205,14 +205,14 @@
             (0, 0, {
                 'factor_percent': 100,
                 'repartition_type': 'tax',
-                'account_id': ref('bs_fbih_471'),
+                'account_id': ref('ba_fbih_471'),
                 'tag_ids': [ref('tax_tag_K')],
             }),
         ]"/>
     </record>
    
 
-    <record id="bs_sale_vat_A0" model="account.tax.template">
+    <record id="ba_sale_vat_A0" model="account.tax.template">
         <field name="sequence">40</field>
         <field name="name">NEPDV 0%</field>
         <field name="description">0%</field>
@@ -234,7 +234,7 @@
                 'factor_percent': 100,
                 'repartition_type': 'tax',
                 'tag_ids': [ref('tax_tag_A')],
-                'account_id': ref('bs_fbih_471'),
+                'account_id': ref('ba_fbih_471'),
             }),
         ]"/>
         <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
@@ -247,13 +247,13 @@
             (0, 0, {
                 'factor_percent': 100,
                 'repartition_type': 'tax',
-                'account_id': ref('bs_fbih_471'),
+                'account_id': ref('ba_fbih_471'),
                 'tag_ids': [ref('tax_tag_A')],
             }),
         ]"/>
     </record>
 
-    <record id="bs_purchase_vat_A0" model="account.tax.template">
+    <record id="ba_purchase_vat_A0" model="account.tax.template">
         <field name="sequence">41</field>
         <field name="name">NEPDV 0%</field>
         <field name="description">0%</field>
@@ -275,7 +275,7 @@
                 'factor_percent': 100,
                 'repartition_type': 'tax',
                 'tag_ids': [ref('tax_tag_A')],
-                'account_id': ref('bs_fbih_471'),
+                'account_id': ref('ba_fbih_471'),
             }),
         ]"/>
         <field name="refund_repartition_line_ids" eval="[(5, 0, 0),
@@ -288,13 +288,13 @@
             (0, 0, {
                 'factor_percent': 100,
                 'repartition_type': 'tax',
-                'account_id': ref('bs_fbih_471'),
+                'account_id': ref('ba_fbih_471'),
                 'tag_ids': [ref('tax_tag_A')],
             }),
         ]"/>
     </record>
 
-    <record id="bs_purchase_vat_17" model="account.tax.template">
+    <record id="ba_purchase_vat_17" model="account.tax.template">
         <field name="sequence">60</field>
         <field name="description">17%</field>
         <field name="name">PDV 17%</field>
@@ -315,7 +315,7 @@
             (0, 0, {
                 'factor_percent': 100,
                 'repartition_type': 'tax',
-                'account_id': ref('bs_fbih_270'),
+                'account_id': ref('ba_fbih_270'),
                 'plus_report_expression_ids': [ref('tax_report_line_108_tag')],
             }),
         ]"/>
@@ -328,13 +328,13 @@
             (0, 0, {
                 'factor_percent': 100,
                 'repartition_type': 'tax',
-                'account_id': ref('bs_fbih_270'),
+                'account_id': ref('ba_fbih_270'),
                 'minus_report_expression_ids': [ref('tax_report_line_108_tag')],
             }),
         ]"/>
     </record>
    
-    <record id="bs_purchase_vat_0" model="account.tax.template">
+    <record id="ba_purchase_vat_0" model="account.tax.template">
         <field name="sequence">80</field>
         <field name="description">PDV 0%</field>
         <field name="name">PDV 0%</field>
@@ -368,7 +368,7 @@
             }),
         ]"/>
     </record>
-    <record id="bs_purchase_import_vat_0" model="account.tax.template">
+    <record id="ba_purchase_import_vat_0" model="account.tax.template">
         <field name="sequence">90</field>
         <field name="description">0% uvoz</field>
         <field name="name">PDV 0% - uvoz</field>
@@ -403,7 +403,7 @@
             }),
         ]"/>
     </record>
-    <record id="bs_purchase_import_vat_17" model="account.tax.template">
+    <record id="ba_purchase_import_vat_17" model="account.tax.template">
         <field name="sequence">100</field>
         <field name="description">PDV 17% uvoz</field>
         <field name="name">PDV 17% uvoz</field>
@@ -424,7 +424,7 @@
             (0, 0, {
                 'factor_percent': 100,
                 'repartition_type': 'tax',
-                'account_id': ref('bs_fbih_274'),
+                'account_id': ref('ba_fbih_274'),
                 'plus_report_expression_ids': [ref('tax_report_line_106_tag')],
              }),
         ]"/>
@@ -437,13 +437,13 @@
             (0, 0, {
                 'factor_percent': 100,
                 'repartition_type': 'tax',
-                'account_id': ref('bs_fbih_274'),
+                'account_id': ref('ba_fbih_274'),
                 'minus_report_expression_ids': [ref('tax_report_line_106_tag')],
             }),
         ]"/>
     </record>
    
-    <record id="bs_purchase_farmer_deductible_vat_5" model="account.tax.template">
+    <record id="ba_purchase_farmer_deductible_vat_5" model="account.tax.template">
         <field name="sequence">120</field>
         <field name="description">PDV 5% - poljoprivrednici naknada</field>
         <field name="name">5% - poljoprivrednici deductible</field>
@@ -464,7 +464,7 @@
             (0, 0, {
                 'factor_percent': 100,
                 'repartition_type': 'tax',
-                'account_id': ref('bs_fbih_278'),
+                'account_id': ref('ba_fbih_278'),
                 'plus_report_expression_ids': [ref('tax_report_line_107_tag')],
              }),
         ]"/>
@@ -477,12 +477,12 @@
             (0, 0, {
                 'factor_percent': 100,
                 'repartition_type': 'tax',
-                'account_id': ref('bs_fbih_278'),
+                'account_id': ref('ba_fbih_278'),
                 'minus_report_expression_ids': [ref('tax_report_line_107_tag')],
             }),
         ]"/>
     </record>
-    <record id="bs_purchase_farmer_non_deductible_vat_5" model="account.tax.template">
+    <record id="ba_purchase_farmer_non_deductible_vat_5" model="account.tax.template">
         <field name="sequence">130</field>
         <field name="description">PDV 5% - bespovratno poljoprivrednici</field>
         <field name="name">5% - poljoprivrednici bespovratno</field>
