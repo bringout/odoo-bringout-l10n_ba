@@ -17,7 +17,7 @@ Bosnian cities
 
 
 """,
-    "version": "16.0.0.11",
+    "version": "16.0.1.2.0",
     "author": "bring.out",
     'category': 'Localization',
     "website": "https://github.com/hernad/odoo",
@@ -37,6 +37,7 @@ Bosnian cities
         'data/country_enforce_cities.xml',
         'data/res.country.state.csv',
         'data/res.city.csv',
+        'data/res.bank.csv',
         'views/enforce_cities.xml',
         "data/menuitem_data.xml",
     ],
