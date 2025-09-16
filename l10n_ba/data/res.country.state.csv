@@ -2,16 +2,17 @@
 state_ba_bd,base.ba,"Brčko Distrikt","BD"
 state_ba_ef,base.ba,"Entitet Federacija BiH","EF"
 state_ba_er,base.ba,"Entitet Republika Srpska","ERS"
-state_ba_k_usk,base.ba,"Unsko-sanski kanton FBiH","KUSK"
-state_ba_k_po,base.ba,"Posavski kanton FBiH","KPO"
-state_ba_k_tz,base.ba,"Tuzlanski kanton FBiH","KTZ"
-state_ba_k_ze,base.ba,"Zeničko-dobojski kanton FBiH","KZE"
-state_ba_k_bp,base.ba,"Bosansko-podrinjski kanton FBiH","KBP"
-state_ba_k_sb,base.ba,"Srednjo-bosanski kanton FBiH","KSB"
-state_ba_k_hn,base.ba,"Hercegovačko-neretvanski kanton FBiH","KHN"
-state_ba_k_zh,base.ba,"Zapadno-hercegovački kanton FBiH","KZH"
+state_ba_k_usk,base.ba,"Unsko-sanski kanton FBiH","USK"
+state_ba_k_po,base.ba,"Posavski kanton FBiH","POS"
+state_ba_k_tz,base.ba,"Tuzlanski kanton FBiH","TK"
+state_ba_k_ze,base.ba,"Zeničko-dobojski kanton FBiH","ZEDO"
+state_ba_k_bp,base.ba,"Bosansko-podrinjski kanton FBiH","BPK"
+state_ba_k_sb,base.ba,"Srednjo-bosanski kanton FBiH","SBK"
+state_ba_k_hn,base.ba,"Hercegovačko-neretvanski kanton FBiH","HNK"
+state_ba_k_zh,base.ba,"Zapadno-hercegovački kanton FBiH","ZHK"
 state_ba_k_sa,base.ba,"Kanton Sarajevo FBiH","KSA"
 state_ba_k_10,base.ba,"Kanton 10 FBiH","K10"
+
 
 
 
