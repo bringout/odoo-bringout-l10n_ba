@@ -17,7 +17,7 @@ Bosnian cities
 
 
 """,
-    "version": "16.0.1.2.0",
+    "version": "16.0.1.2.1",
     "author": "bring.out",
     'category': 'Localization',
     "website": "https://github.com/hernad/odoo",
